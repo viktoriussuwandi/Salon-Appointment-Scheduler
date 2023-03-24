@@ -6,7 +6,7 @@
     4. Primary Key and Foreign Key assignment.
     5. Compact queries into salon.sql file.
     6. Create shell scipt files and give executable permission to the file.
-    7. Run shell script salon.sh file.
+    7. Copy & Run shell script salon.sh file.
 
 #### Solution can be found on : [https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler](https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler)
 
