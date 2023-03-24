@@ -39,7 +39,7 @@ NEXT() {
   SERVICE_NAME=$(echo $GET_SERVICE_NAME| sed 's/ //g')
   CUSTOMER_ID=$($PSQL "SELECT customer_id FROM customers WHERE phone='$CUSTOMER_PHONE'")
   
-  echo -e "\nWhat time would you like your $SERVICE_NAME, $CUSTOMER_NAME?"
+  echo -e "\nWhat time would you like your $SERVICE_NAME,$CUSTOMER_NAME?"
   read SERVICE_TIME
   SAVED_TO_TABLE_APPOINTMENTS=$($PSQL "INSERT INTO appointments(customer_id, service_id, time) VALUES($CUSTOMER_ID, $SERVICE_ID_SELECTED, '$SERVICE_TIME')")
   if [[ $SAVED_TO_TABLE_APPOINTMENTS == "INSERT 0 1" ]]
