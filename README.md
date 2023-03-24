@@ -5,7 +5,7 @@
     3. Primary Key and Foreign Key assignment.
     4. Give executable permission to shell scipt files.
     5. Run shell script files (NOTE : insert data first).
-    6. Compact queries into worldcup.sql file.
+    6. Compact database schema into salon.sql file.
 
 #### Solution can be found on : [https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler](https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler)
 
