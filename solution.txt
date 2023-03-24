@@ -60,6 +60,6 @@ touch salon.sh
 chmod +x salon.sh
 
 ---------------------------------------------------------------------
-7.Run shell script files
+7.Copy & Run shell script files
 ---------------------------------------------------------------------
 ./salon.sh
