@@ -47,7 +47,7 @@ ALTER TABLE appointments ADD FOREIGN KEY (customer_id) REFERENCES customers (cus
 ALTER TABLE appointments ADD FOREIGN KEY (service_id)  REFERENCES services  (service_id)
 
 ---------------------------------------------------------------------
-5. Compact queries into worldcup.sql file.
+5. Compact sql db queries into worldcup.sql file.
 ---------------------------------------------------------------------
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 
