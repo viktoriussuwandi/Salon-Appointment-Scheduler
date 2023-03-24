@@ -1,11 +1,12 @@
 # Salon Appointment Scheduler
 #### Open [`file solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
-    1. Create Database and connect to it.
-    2. Create tables as required conditions.
-    3. Primary Key and Foreign Key assignment.
-    4. Give executable permission to shell scipt files.
-    5. Run shell script files (NOTE : insert data first).
-    6. Compact database schema into salon.sql file.
+    1.Create Database and connect to it
+    2. Create tables as required conditions
+    3. Fill table services with initial data
+    4. Primary Key and Foreign Key assignment
+    5. Compact queries into worldcup.sql file.
+    6. Create shell scipt files and give executable permission to the file.
+    7. Run shell script files.
 
 #### Solution can be found on : [https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler](https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler)
 

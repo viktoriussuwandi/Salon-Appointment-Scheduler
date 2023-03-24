@@ -1,0 +1,65 @@
+---------------------------------------------------------------------
+1.Create Database and connect to it
+---------------------------------------------------------------------
+psql --username=freecodecamp --dbname=postgres;
+
+CREATE DATABASE salon;
+
+\c salon
+
+---------------------------------------------------------------------
+2. Create tables as required conditions
+---------------------------------------------------------------------
+
+CREATE TABLE appointments (
+    appointment_id SERIAL      NOT NULL,
+    customer_id    INTEGER     NOT NULL
+    service_id     INTEGER     NOT NULL,
+    time           VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE customers (
+    customer_id SERIAL      NOT NULL,
+    name	VARCHAR(50) NOT NULL,
+    phone       VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE services (
+    service_id SERIAL      NOT NULL,
+    name       VARCHAR(50) NOT NULL
+);
+
+---------------------------------------------------------------------
+3.Fill table services with initial data
+---------------------------------------------------------------------
+INSERT INTO services VALUES
+(1, 'cut'  ), (2, 'color'), (3, 'perm' ), 
+(4, 'style'), (5, 'trim');
+
+---------------------------------------------------------------------
+4. Primary Key and Foreign Key assignment
+---------------------------------------------------------------------
+ALTER TABLE appointments ADD PRIMARY KEY (appointment_id)
+ALTER TABLE services     ADD PRIMARY KEY (service_id)
+ALTER TABLE customers    ADD PRIMARY KEY (customer_id)
+
+ALTER TABLE appointments ADD FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
+ALTER TABLE appointments ADD FOREIGN KEY (service_id)  REFERENCES services  (service_id)
+
+---------------------------------------------------------------------
+5. Compact queries into worldcup.sql file.
+---------------------------------------------------------------------
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+
+---------------------------------------------------------------------
+6.Create shell scipt files and give executable permission to the file
+---------------------------------------------------------------------
+quit
+clear
+touch salon.sh
+chmod +x salon.sh
+
+---------------------------------------------------------------------
+7.Run shell script files
+---------------------------------------------------------------------
+./salon.sh
