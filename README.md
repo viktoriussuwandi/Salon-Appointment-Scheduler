@@ -1,5 +1,5 @@
 # Salon Appointment Scheduler
-#### Open [`file solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
+#### Open [file `solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
     1. Create Database and connect to it.
     2. Create tables as required conditions.
     3. Fill table services with initial data.
@@ -54,6 +54,7 @@ If you are saving your progress on [freeCodeCamp.org](freeCodeCamp.org), after g
 21. After an `appointment` is successfully added, you should output the message `I have put you down for a <service> at <time>, <name>`. For example, if the user chooses `cut` as the `service`, `10:30` is entered for the `time`, and their `name` is `Fabio` in the database the output would be `I have put you down for a cut at 10:30, Fabio`. Make sure your script finishes running after completing any of the tasks above, or else the tests won't pass.
 
 ## Result
+
 ### Testing
 ![Testing](testing.jpg)
 
