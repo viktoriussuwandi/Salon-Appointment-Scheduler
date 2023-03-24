@@ -1,6 +1,6 @@
 # Salon Appointment Scheduler
 #### Open [`file solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
-    1.Create Database and connect to it.
+    1. Create Database and connect to it.
     2. Create tables as required conditions.
     3. Fill table services with initial data.
     4. Primary Key and Foreign Key assignment.
