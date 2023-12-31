@@ -8,8 +8,6 @@
     6. Create shell scipt files and give executable permission to the file.
     7. Copy & Run shell script salon.sh file.
 
-#### Solution can be found on : [https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler](https://replit.com/@ViktoriusSuwand/Salon-Appointment-Scheduler)
-
 #### Documentation can be found on : [https://github.com/viktoriussuwandi/Salon-Appointment-Scheduler](https://github.com/viktoriussuwandi/Salon-Appointment-Scheduler)
 
 This is the result to complete the Salon Appointment Scheduler project. 
